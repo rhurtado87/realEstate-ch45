@@ -1,6 +1,11 @@
 body{
     font-family: Arial;
 }
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
 /*header*/
 .site-init{
     background-image: url(img/header.jpg);
