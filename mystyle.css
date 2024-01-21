@@ -1,4 +1,10 @@
 /*global*/
+:root{
+    --primary:var(--primary)
+}
+html{
+    font-size: 62.5%; /*10px = 1rem*/
+}
 *{
     margin: 0%;
     padding: 0%;
@@ -9,11 +15,19 @@ body{
 a{
     text-decoration: none;
     color: white;
-    margin-right: 20px;
 }
 img{
     max-width: 100%;
 }
+h2{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2.4rem;
+    }
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    }
 /*header*/
 .site-init{
     background-image: url(img/header.jpg);
@@ -22,10 +36,14 @@ img{
     color: white;
 }
 .site-init p{
-    font-size: 20px;
+    font-size: 2rem;
+}
+.site-second{
+    background-color: #222222;
+    color: wheat;
 }
 .menu a{
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 /*utilities*/
 .flex-header{
@@ -35,6 +53,15 @@ img{
     align-items: center;
 
 }
+.btn{
+    display: block;
+    font-size: 16px;
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 1rem;
+    margin:1rem 0;
+}
+/*continer*/
 .container{
     width: 80%;
     margin:0 auto;
@@ -55,10 +82,35 @@ img{
 /*house item*/
 .house-item{
     background-color: wheat;
-    width:400px ;
+    width:40rem;
 }
 .price{
     color: green;
     font-weight: bold;
 }
-/*section*/
+/*contact form*/
+.form-container{
+
+}
+fieldset{
+    padding: 1rem;
+}
+legend,label,input{
+    font-size: 1.6rem;
+}
+.input-container{
+    margin: 1rem;
+}
+.input-container input,.input-container textarea{
+    width: 70%;
+    background-color: #dedede;
+    border:none;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.input-container label{
+    display: inline-block;
+    width: 10rem;
+    text-align: right;
+    margin-right: 1rem;
+}
