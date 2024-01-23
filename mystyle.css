@@ -37,11 +37,22 @@ p{
 }
 .site-init p{
     font-size: 2rem;
+    
 }
 .site-second{
     background-color: #222222;
     color: wheat;
 }
+
+@media(max-width:768px){
+    .site-init{
+        height: 22vh;
+    }
+    .site-init p{
+        font-size: 1.5rem;
+    }
+}
+
 .menu a{
     margin-right: 2rem;
 }
@@ -61,6 +72,11 @@ p{
     padding: 1rem;
     margin:1rem 0;
 }
+/*checkbox*/
+.checkbox-round{
+    display: block;
+    position: relative;
+}
 /*continer*/
 .container{
     width: 80%;
@@ -78,6 +94,20 @@ p{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+@media(max-width:768px) {
+    .flex-header{
+        flex-direction: column;
+    }
+    .flex-header-v{
+        height: 20vh;
+        text-align: center;
+    }
+    .flex-about{
+        flex-direction: column;
+    }
+    
 }
 /*house item*/
 .house-item{
