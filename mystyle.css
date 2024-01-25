@@ -20,7 +20,7 @@ img{
     max-width: 100%;
 }
 h2{
-    text-align: center;
+    text-align: left;
     margin: 1rem 0;
     font-size: 2.4rem;
     }
@@ -32,6 +32,7 @@ p{
 .site-init{
     background-image: url(img/header.jpg);
     background-size: cover;
+    font-style: italic;
     height: 40vh;
     color: white;
 }
@@ -96,7 +97,11 @@ p{
     justify-content: space-between;
     align-items: center;
 }
-
+.flex-contact h2{
+text-align: center;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+}
 @media(max-width:768px) {
     .flex-header{
         flex-direction: column;
@@ -126,6 +131,7 @@ p{
 }
 /*contact form*/
 .form-container{
+    font-weight: bold;
 }
 fieldset{
     padding: 1rem;
@@ -135,6 +141,7 @@ legend,label,input{
 }
 .input-container{
     margin: 1rem;
+    font-weight: bold;
 }
 .input-container input,.input-container textarea{
     width: 70%;
