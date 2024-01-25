@@ -1,0 +1,6 @@
+git abase - to fix merge issus...
+
+
+git add .
+git commit -m "(message)
+git push
