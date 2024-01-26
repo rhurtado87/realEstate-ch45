@@ -28,7 +28,7 @@ p{
     font-size: 1.6rem;
     line-height: 1.5;
     }
-/*header*/
+/*-----------header-----------*/
 .site-init{
     background-image: url(img/header.jpg);
     background-size: cover;
@@ -64,7 +64,7 @@ p{
     margin-right: 2rem;
     font-weight: bold;
 }
-/*utilities*/
+/*-------------------utilities---------*/
 .flex-header{
     display: flex;
     flex-direction: row;
@@ -81,11 +81,11 @@ p{
     padding: 1rem;
     margin:1rem 0;
 }
-/*checkbox*/
+/*-----------------------checkbox----------*/
 .checkbox{
     display: block;
 }
-/*continer*/
+/*------------------continer------------*/
 .container{
     width: 80%;
     margin:0 auto;
@@ -96,7 +96,7 @@ p{
     justify-content: space-around;
     height: 35vh;
 }
-/*about us*/
+/*--------------about us*/
 .flex-about{
     display: flex;
     flex-direction: row;
@@ -121,7 +121,7 @@ font-family: Arial, Helvetica, sans-serif;
     }
     
 }
-/*house item*/
+/*--------------house item*/
 .house-item{
     background-color: wheat;
     width:40rem;
@@ -135,15 +135,19 @@ font-family: Arial, Helvetica, sans-serif;
     color: green;
     font-weight: bold;
 }
-/*contact form*/
+/*-----------------contact form*/
 .form-container{
+    display: block;
+    padding: 1rem;
 }
 fieldset{
     padding: 1rem;
 }
 legend,label,input{
+    display: flexbox;
     font-size: 1.6rem;
     font-weight: bold;
+    font-family:'Lucida Sans';
 }
 .input-container{
     margin: 1rem;
