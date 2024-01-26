@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,87 +8,90 @@
     <title>Contact</title>
 </head>
 body>
-    <header class="site-second">
-        
-        <div class="flex-header-v container">
-            
+<header class="site-second">
+
+    <div class="flex-header-v container">
+
         <div class="flex-header">
-        <h1>RealEstate</h1>
-        <nav class="menu">
-            <a href="index.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Blog</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
+            <h1>RealEstate</h1>
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
+    </div>
 </header>
 <main class="container">
     <div class="flex-contact">
-    <h2>Contact</h2>
-    <h2>Fill the next Infomation</h2>
+        <h2>Contact</h2>
+        <h2>Fill the next Infomation</h2>
     </div>
-<div>
-    <p>Personal Information</p>
-    <form class="form-container">
-        <fieldset>
-            <label>NAME</label>
-            <div class="input-container">
-            <input type="text" placeholder="Type your name">
+    <div>
+        <form class="form-container">
+            <fieldset>
+                <label>NAME: </label>
+                <legend>Personal Information</legend>
+                <div class="input-container">
+                    <input type="text" placeholder="Type your name">
                 </div>
-                <label>EMAIL</label>
+                <label>EMAIL: </label>
                 <div class="input-container">
                     <input type="number" placeholder="Type you email">
                 </div>
-                <label>PHONE NUMBER</label>
+                <label>PHONE NUMBER: </label>
                 <div class="input-container">
-                    <input type="tel" placeholder="Type your number">
+                    <input type="tel" placeholder="Type your CellNumber">
                 </div>
-                <label>MESSAGE</label>
+                <label>MESSAGE: </label>
                 <div class="input-container">
                     <textarea cols="30" rows="18"></textarea>
                 </div>
-            </div>
-            <div>
-                <p>Product Information</p>
-                <form class="form-container">
-                    <fieldset>
-                        <label>TYPE</label>
-                        <div class="input-container">
-                        <input type="search" placeholder=" -- Select an option --">
-                            </div>
-                            <label>NUMBER</label>
-                            <div class="input-container">
-                                <input type="text" placeholder="">
-                            </div>
-                            </fieldset>
-                        </div>
-                        <div>
-                            <p>Contact Information</p>
-                            <form class="form-container">
-                                <fieldset>
-                                    <div class="input-container">
-                                                <label Phone class="checkbox">
-                                                    <input type="radio" name="PHONE">
-                                                </label>
-                                                <label class="checkbox">
-                                                    <input type="radio" name="EMAIL">
-                                                </label>
-                                        </div>
-                                        <div class="input-container">
-                                            <label>Date</label>
-                                            <input type="date" placeholder="Date">
-                                        </div>
-                                        <div class="input-container">
-                                            <label>Hour</label>
-                                            <input type="time" placeholder="Hour">
-                                        </div>
-                                    </div>
-        </fieldset>
+                </fieldset>
+    </div>
+    <div>
+        <form class="form-container">
+            <fieldset>
+                <label>TYPE: </label>
+                <legend>Product Information</legend>
+                <div class="input-container">
+                    <input type="email" placeholder=" -- Select an Option -- ">
+                </div>
+                <label>NUMBER: </label>
+                <div class="input-container">
+                    <input type="number" placeholder="###-####-###-###">
+                </div>
+            </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <label for="phone">Phone</label>
+            <input type="radio">
+            <th>
+            <label for="email">EMAIL</label>
+            <input type="radio">
+            <br>
+            <p>If you want to be contacted by
+                phone, please select a day and hour:</p>
+                <br>
+    <label>Date</label>
+    <legend>Contact Information</legend>
+    <div class="input-container">
+        <input type="date" placeholder="Date">
+    </div>
+    <label>Hour</label>
+    <div class="input-container">
+        <input type="time" placeholder="Hour">
+    </div>
+    </div>
+    </fieldset>
     </form>
     <div>
-    <a class="btn" href="http://www.google.com">Send</a>
-</div>
+        <button class="btn">
+            <a href="http://www.google.com">Send</a>
+        </button>
+    </div>
 </main>
 </body>
 
