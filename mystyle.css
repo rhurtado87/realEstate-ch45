@@ -59,6 +59,12 @@ p{
     .site-init p{
         font-size: 1.5rem;
     }
+    .site-second{
+        height: 22vh;
+    }
+    .site-second p{
+        font-size: 1.5rem;
+    }
 }
 .menu a{
     margin-right: 2rem;
